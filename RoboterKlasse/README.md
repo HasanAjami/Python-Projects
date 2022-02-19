@@ -8,5 +8,5 @@ Extra points are also for steps count :)
 
 _Comment_
 
-I thought that exercise was fun for understand oop. espicially if you want to use it for games. However, I found it to be
+I thought that exercise was fun for understanding oop. espicially if you want to use it for games. However, I found it to be
 a little annoying, because you had to write many "if"s.
