@@ -6,9 +6,9 @@ Created on Mon Aug 23 15:08:55 2021
 """
 
 class Roboter:
-    def __init__(self, name, orientation = "none"):
+    def __init__(self, name, orientation = "none"): #orientation is the direction   
         self.orientation = orientation
-        self.name = name[0:10]
+        self.name = name[0:10]  #max. 10 letters name
         self.x = 0
         self.y = 0
         self.position = [self.x, self.y]
@@ -37,7 +37,7 @@ class Roboter:
                             print("Die Position lautet %s und die Orientierung ist: %s" %(self.position, self.orientation))
                 else:
                     print("Bitte nur south, west, north, east oder stop eingeben!")
-            except ValueError:
+            except ValueError: #avoinding user mistake
                 print("Bitte nur south, west, north, east oder stop oder gültige Zahlen eingeben!")
 
         print("Die letzte Position von %s lautet: %s" %(self.name, self.position))
